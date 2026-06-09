@@ -114,7 +114,7 @@
     <!-- Intro -->
     <div id="step-0" class="step">
       <h1>Advanced skin, <span class="accent">made simple.</span></h1>
-      <p class="sub">Five questions. Two minutes. A treatment plan built around your skin - by Kristy and the Amore' team - delivered to your inbox within 24 hours.</p>
+      <p class="sub">Five questions. Two minutes. A skin plan built around your goals - by Kristy, Christina and the Amore' team - delivered to your inbox within 24 hours. 15+ years of clinical experience, specialising in adult and male acne, age management for 40s and 50s, and laser hair removal.</p>
       <div class="btn-row" style="justify-content:flex-end;">
         <button class="btn btn-primary" onclick="next()">Begin Assessment</button>
       </div>
@@ -172,7 +172,7 @@
     <!-- Q5 contact -->
     <div id="step-5" class="step hidden">
       <p class="question">Where should we send your plan?</p>
-      <p class="sub" style="margin-bottom:1.5rem;">The Amore' team will personally review your answers and send a tailored treatment roadmap within 24 hours.</p>
+      <p class="sub" style="margin-bottom:1.5rem;">Kristy or Christina will personally review your answers and send a tailored skin roadmap within 24 hours.</p>
       <label class="input-label">First Name</label>
       <input class="input" id="firstName" placeholder="Jane">
       <label class="input-label">Email</label>
@@ -247,7 +247,7 @@
   </div>
 
   <div class="footer">
-    Amore' Beauty and Laser <span class="divider">&middot;</span> 1/804 Heidelberg-Kinglake Road, Hurstbridge VIC <span class="divider">&middot;</span> <a href="https://www.amorebeautyandlaser.com" target="_blank">amorebeautyandlaser.com</a>
+    Amore' Beauty and Laser <span class="divider">&middot;</span> Established 2019 &middot; 15+ years experience <span class="divider">&middot;</span> 1/804 Heidelberg-Kinglake Road, Hurstbridge VIC <span class="divider">&middot;</span> (03) 9718 0008 <span class="divider">&middot;</span> <a href="https://www.amorebeautyandlaser.com" target="_blank">amorebeautyandlaser.com</a>
   </div>
 </div>
 
@@ -293,19 +293,19 @@
     const c = answers.concern, age = answers.age, r = answers.routine, u = answers.urgency;
 
     const focusMap = {
-      pigmentation: 'Brightening and pigment correction - lifting uneven tone while protecting against further damage.',
-      acne: 'Calming active breakouts, decongesting the skin and rebuilding a clear, healthy barrier - whether teen, adult or male skin.',
-      aging: 'Stimulating collagen, smoothing fine lines and restoring firmness from the inside out.',
-      texture: 'Resurfacing the skin to smooth texture, soften scarring and refine pore appearance.',
-      redness: 'Strengthening the skin barrier, calming inflammation and reducing visible redness.'
+      pigmentation: 'Improving the appearance of uneven tone and supporting a brighter, more even-looking complexion.',
+      acne: 'Supporting clearer-looking skin and a balanced complexion - a focus area where our team has deep experience, including adult and male skin.',
+      aging: 'Supporting firmer-looking skin and improving the appearance of fine lines - one of our most-requested focus areas for 40s and 50s clients.',
+      texture: 'Refining the appearance of skin texture, pores and post-acne marks for a smoother-looking finish.',
+      redness: 'Supporting a calmer, more even-looking complexion and a stronger skin barrier over time.'
     };
 
     const treatmentMap = {
-      pigmentation: 'Corrective peels and skin needling to lift surface pigment, paired with clinical-grade brightening serums and broad-spectrum SPF at home to stop new pigment from forming. LED therapy supports the skin between treatments.',
-      acne: 'Corrective peels, LED therapy and skin needling - paired with a clinical-grade home routine to clear active breakouts and restore your barrier.',
-      aging: 'Collagen-induction skin needling, advanced peels and LED therapy. Injectables consultation available if appropriate for your goals.',
-      texture: 'Skin needling series paired with corrective peels to smooth texture, soften scarring and refine pores. Take-home skincare keeps the work going between visits.',
-      redness: 'Gentle LED therapy, calming peels and barrier-repair prescriptives to soothe inflammation and reduce visible redness over a 3-6 month plan.'
+      pigmentation: 'In-clinic corrective peels and skin needling paired with clinical-grade brightening cosmeceuticals and broad-spectrum SPF 50 at home. LED therapy supports your skin between treatments.',
+      acne: 'A tailored mix of corrective peels, LED therapy and skin needling, paired with a clinical-grade home routine matched to your skin.',
+      aging: 'Collagen-induction skin needling, advanced peels and LED therapy. A cosmetic injectables consultation is available if that suits your goals.',
+      texture: 'Skin needling series paired with corrective peels to refine the appearance of texture and post-acne marks. Take-home cosmeceuticals continue the work between visits.',
+      redness: 'Gentle LED therapy, calming professional peels and barrier-supporting cosmeceuticals across a 3-6 month plan.'
     };
 
     let homeRec = 'A simple corrective routine: medical-grade cleanser, vitamin C serum, retinol (introduced gradually) and broad-spectrum SPF 50.';
