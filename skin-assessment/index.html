@@ -236,11 +236,6 @@
           </div>
         </div>
 
-        <!-- Winter IPL trigger - only shows for pigmentation scorers -->
-        <div id="winterTrigger" class="winter-card hidden">
-          <h4>Bonus - Winter Pigmentation Waitlist</h4>
-          <p>Winter is your skin's window. We're bringing IPL pigmentation correction into the clinic for our 2026 winter season - join the waitlist for first-access pricing before public release.</p>
-        </div>
       </div>
 
       <div class="cta-block">
@@ -306,7 +301,7 @@
     };
 
     const treatmentMap = {
-      pigmentation: 'Corrective peels and skin needling to lift surface pigment now, paired with clinical-grade brightening serums at home. IPL coming this winter (join the waitlist below) to target deeper pigment at its source.',
+      pigmentation: 'Corrective peels and skin needling to lift surface pigment, paired with clinical-grade brightening serums and broad-spectrum SPF at home to stop new pigment from forming. LED therapy supports the skin between treatments.',
       acne: 'Corrective peels, LED therapy and skin needling - paired with a clinical-grade home routine to clear active breakouts and restore your barrier.',
       aging: 'Collagen-induction skin needling, advanced peels and LED therapy. Injectables consultation available if appropriate for your goals.',
       texture: 'Skin needling series paired with corrective peels to smooth texture, soften scarring and refine pores. Take-home skincare keeps the work going between visits.',
@@ -326,10 +321,6 @@
     document.getElementById('recTreatments').textContent = (treatmentMap[c] || 'A custom mix of our in-clinic devices and treatments.') + urgencyNote;
     document.getElementById('recHome').textContent = homeRec;
 
-    // Trigger winter waitlist for pigmentation scorers
-    if(c === 'pigmentation'){
-      document.getElementById('winterTrigger').classList.remove('hidden');
-    }
   }
 </script>
 </body>
